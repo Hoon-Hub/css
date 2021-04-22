@@ -1,0 +1,16 @@
+ul{
+    list-style:none;
+    line-height:30px;
+}
+ul li::before {
+    content: "";
+    width:30px;
+    height:30px;
+    background-color: tomato;
+    display:inline-block;
+    border-radius:50%;
+    font-weight:bold;
+    font-size:20px;
+    color:red;
+    margin-right:10px;
+}

@@ -1,0 +1,17 @@
+.fruits p:nth-child(1){
+    color:red;
+}
+
+/** 위가 안되기 때문에-> */
+.fruits p:nth-of-type(1){   /**p 태그 중 첫 번 째*/
+    color:red;
+}
+
+
+
+/**fruits2***/
+/* 타입은 태그의 이름이기 때문에 아래는 적용되지 않는다. */
+.fruits2 .red:nth-of-type(1){
+    color: red;
+}
+
