@@ -1,0 +1,46 @@
+/** hover시 글씨체 두껍게 */
+.in-div-class a:hover{
+    font-weight:bold;
+}
+
+/**hover시 transition*/
+.in-div-class2{
+    width:100px;
+    height:100px;
+    background-color: tomato;
+    transition: 0.2s;
+}
+
+.in-div-class2:hover{
+    width:200px;
+}
+
+/** 마우스로 클릭하는 동안에 선택:  active */
+.div-class2{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    transition:0.3s;
+}
+
+.div-class2:active{
+    width:200px;
+    height:200px;
+    background-color: blue;
+}
+
+
+/** focus */
+/** 대화형 컨텐츠에만 가능 */
+input {
+    width:100px;
+    outline:none;
+    border:1px solid lightgray;
+    padding: 5px 10px ;
+    transition:0.2s;
+}
+
+input:focus{
+    border-color:blue;
+    width:200px;
+}

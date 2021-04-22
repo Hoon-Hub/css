@@ -1,0 +1,13 @@
+ul{
+    list-style:none;
+    font-size:20px;
+}
+
+ul li::after{
+    content: ".";
+}
+
+ul li::after{
+    content: url("https://interactive-examples.mdn.mozilla.net/media/dino.svg");
+    
+}

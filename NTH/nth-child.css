@@ -1,0 +1,20 @@
+li{
+    list-style:none;
+}
+
+.nth .fruits li:nth-child(2n){
+    color:red;
+}
+
+
+.nth .fruits li:nth-child(n+2){
+    font-weight:bold;
+    font-size:30px;
+}
+
+
+
+/**선택되지 않는다.*/
+.nth-fruits p:nth-child(1) {
+    color:red;
+}

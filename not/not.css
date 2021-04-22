@@ -1,0 +1,7 @@
+.fruits li{
+    color: red;
+}
+
+.fruits li:not(.strawberry){
+    color:blue;
+}
