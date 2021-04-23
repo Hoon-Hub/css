@@ -1,0 +1,41 @@
+span{
+    display:block;
+    width:100px;
+    height:100px;
+    background-color: tomato;
+}
+
+.div1{
+    display:inline;
+    width:100px;
+    height:100px;
+    background-color: tomato;
+}
+
+input{
+    display:inline-block;
+    width:100px;
+    height:20px;
+    margin:50px 0;
+    padding:20px 0;
+}
+
+input:nth-of-type(2){
+    opacity:0.5;
+    display:none;
+}
+
+.div2{
+    width:200px;
+    height:200px;
+    background-color: tomato;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+div.hide{
+    display:none;
+    transition: 0.4;
+
+}
